@@ -8,7 +8,10 @@ public class ArtificialChristmasTree {
 
     static int wholeHeight;
 
-    ArtificialChristmasTree() {};
+    ArtificialChristmasTree() {
+    }
+
+    ;
 
     public ArtificialChristmasTree(String color, String type, String structure, String manufacturer) {
         this.color = color;

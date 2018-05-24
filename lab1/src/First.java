@@ -1,33 +1,33 @@
 public class First {
-    public static void main(String [] args) {
+    public static void main(String[] args) {
 
-        ArtificialChristmasTree Martin = new ArtificialChristmasTree();
+        ArtificialChristmasTree martin = new ArtificialChristmasTree();
 
-        Martin.setColor("Dark green");
-        Martin.setType("Pine-tree");
-        Martin.setStructure("Fold-out");
-        Martin.setManufacturer("China");
-        Martin.setHeight(150);
-        Martin.wholeHeight = 400;
+        martin.setColor("Dark green");
+        martin.setType("Pine-tree");
+        martin.setStructure("Fold-out");
+        martin.setManufacturer("China");
+        martin.setHeight(150);
+        martin.wholeHeight = 400;
 
-        System.out.println(Martin.toString());
-        Martin.printStaticSum();
-        Martin.printSum();
-
-
-        ArtificialChristmasTree Garry = new ArtificialChristmasTree("Light green", "Fir-tree", "One-piece", "Pakistan");
-        Garry.setHeight(150);
-        Garry.wholeHeight = 400;
-
-        System.out.println(Garry.toString());
-        Garry.printStaticSum();
-        Garry.printSum();
+        System.out.println(martin.toString());
+        martin.printStaticSum();
+        martin.printSum();
 
 
-        ArtificialChristmasTree Sam = new ArtificialChristmasTree("Blue-green", "Pine-tree", "One-piece", "China", 80, 330);
+        ArtificialChristmasTree garry = new ArtificialChristmasTree("Light green", "Fir-tree", "One-piece", "Pakistan");
+        garry.setHeight(150);
+        garry.wholeHeight = 400;
 
-        System.out.println(Sam.toString());
-        Sam.printStaticSum();
-        Sam.printSum();
+        System.out.println(garry.toString());
+        garry.printStaticSum();
+        garry.printSum();
+
+
+        ArtificialChristmasTree sam = new ArtificialChristmasTree("Blue-green", "Pine-tree", "One-piece", "China", 80, 330);
+
+        System.out.println(sam.toString());
+        sam.printStaticSum();
+        sam.printSum();
     }
 }
